@@ -27,10 +27,11 @@ function updateSquares() {
         let symbol = board[position];
 
         if (symbol !== '') {
-            square.innerHTML = `<div class='${symbol}'>${symbol}</div>`;
+            square.innerHTML = `<div class='${symbol}'></div>`;
         }
     });
 };
+
 
 
 
