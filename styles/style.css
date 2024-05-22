@@ -1,11 +1,23 @@
 body {
     text-align: center;
 }
+#title {
+    color: white;
+    background-color: rgb(179, 162, 162);
+}
 
+#img { 
+    background-image: url(./pexels-egorkomarov-11986168.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    min-height: 97.7vh;
+    padding: 0;
+}
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .stage {
     display: inline-block;
 }
