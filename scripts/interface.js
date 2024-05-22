@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     let squares = document.querySelectorAll(".square");
+    let resetButton = document.getElementById("resetButton");
 
     squares.forEach((square) => {
         square.addEventListener('click', handleClick);
     });
+
+    resetButton.addEventListener('click', resetGameAndUI);
 });
 
 function handleClick(event) {
@@ -17,7 +20,7 @@ function handleClick(event) {
     }
 
     updateSquares();
-};
+}
 
 function updateSquares() {
     let squares = document.querySelectorAll(".square");
@@ -28,9 +31,18 @@ function updateSquares() {
 
         if (symbol !== '') {
             square.innerHTML = `<div class='${symbol}'></div>`;
+        } else {
+            square.innerHTML = '';
         }
     });
-};
+}
+
+function resetGameAndUI() {
+    resetGame();
+    updateSquares();
+}
+
+
 
 
 

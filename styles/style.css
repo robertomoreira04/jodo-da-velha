@@ -50,3 +50,14 @@ h1 {
     content: "\274C"; 
 }
 
+button {
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 30px;
+    font-size: 20px;
+}

@@ -3,7 +3,6 @@ let playerTime = 0;
 let symbols = ['o', 'x'];
 let gameOver = false;
 
-
 function handleMove(position) {
     if (gameOver) {
         return false;
@@ -46,6 +45,14 @@ function isWin() {
 
     return false;
 }
+
+function resetGame() {
+    board = ['', '', '', '', '', '', '', '', ''];
+    playerTime = 0;
+    gameOver = false;
+}
+
+
 
 
 
