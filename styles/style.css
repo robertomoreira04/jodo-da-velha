@@ -1,9 +1,14 @@
 body {
     text-align: center;
 }
-#title {
-    color: white;
-    background-color: rgb(179, 162, 162);
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #img { 
@@ -44,8 +49,4 @@ h1 {
 .x:after {
     content: "\274C"; 
 }
-
-
-
-
 
